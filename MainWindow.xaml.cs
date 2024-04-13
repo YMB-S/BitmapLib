@@ -28,7 +28,9 @@ namespace BitmapLib
 
         public MainWindow()
         {
+            display = new SimulationDisplay();
             SetupSimulationTimer(TARGET_FRAMES_PER_SECOND);
+
             InitializeComponent();
         }
 

@@ -22,14 +22,15 @@ namespace BitmapLib
             bitmap = new Bitmap(DISPLAY_WIDTH, DISPLAY_HEIGHT);
         }
 
+        public void Update()
+        {
+
+        }
+
         public BitmapImage GetImage()
         {
             DrawTo(bitmap);
             return ToBitmapImage(bitmap);
-        }
-
-        public void Update()
-        {
         }
 
         public void DrawTo(Bitmap target)
